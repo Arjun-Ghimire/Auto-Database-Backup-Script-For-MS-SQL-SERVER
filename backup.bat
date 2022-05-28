@@ -3,10 +3,10 @@
 set BACKUPPATH=C:\test
 
 :: set name of the server and instance
-set SERVERNAME=DOTNETDEVELOPER
+set SERVERNAME=YourServerName
 
 :: set database name
-set DATABASENAME=NewFileUploadingDB
+set DATABASENAME=YourDbName
 
 :: filename format Name-Date
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c-%%a-%%b)
